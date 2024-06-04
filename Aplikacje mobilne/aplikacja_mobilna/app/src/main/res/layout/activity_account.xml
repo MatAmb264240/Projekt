@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/buttonEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/yellow"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonMoviesWatched"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movies Watched"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/yellow"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/buttonSeriesWatched"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Series Watched"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/yellow"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
